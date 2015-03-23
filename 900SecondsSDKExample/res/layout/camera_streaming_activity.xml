@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<ru.denivip.nine00secondssdk.hlsstreaming.Nine00SecondsCameraView
+        android:id="@+id/streamingView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/toggleRecording_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/circle_button_background_selector"
+        android:src="@drawable/reccord_button"
+        android:clickable="true"
+        android:onClick="clickToggleRecording" />
+
+</RelativeLayout>
