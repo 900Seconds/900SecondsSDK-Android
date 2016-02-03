@@ -3,6 +3,7 @@
 	<name>900SecondsSDK</name>
 	<comment></comment>
 	<projects>
+		<project>900SecondsSdkCore</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

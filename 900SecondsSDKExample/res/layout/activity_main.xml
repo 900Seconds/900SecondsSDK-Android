@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ru.denivip.nine00secondssdk.example.MainActivity" >
+    tools:context="com.livestreamsdk.example.MainActivity" >
 
     <Button
         android:id="@+id/button_streaming"
@@ -15,7 +15,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:onClick="onStreamingClick"
-        android:text="Streaming" />
+        android:text="@string/streaming" />
 
     <Button
         android:id="@+id/button_streams_list"
@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button_streaming"
-        android:text="Streams list"/>
+        android:onClick="onStreamsListClick"
+        android:text="@string/streams_list"/>
 
     <Button
         android:id="@+id/button_streams_map"
@@ -32,6 +33,6 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button_streams_list"
         android:onClick="onMapClick"
-        android:text="Streams on the map" />
+        android:text="@string/streams_map" />
 
 </RelativeLayout>

@@ -7,5 +7,8 @@
 	<string name="play_stream_preload">The video is loading</string>
     <string name="loading">Loading...</string>
     <string name="watch">Watch</string>
+    <string name="streams_list">Streams list</string>
+    <string name="streaming">Streaming</string>
+    <string name="streams_map">Streams on the map</string>
 
 </resources>
