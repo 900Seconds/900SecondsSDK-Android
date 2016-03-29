@@ -218,7 +218,7 @@ videoView.setVideoPath(path); // for example
 
 
 ## Example application
-You can get an example application from [git repository](git@github.com:900Seconds/900SecondsSDK-Android.git)
+You can get an example application from [git repository](https://github.com/900Seconds/900SecondsSDK-Android)
 It contains code example for camera streaming, stream playing, streams list retrieving and other.
 
 
