@@ -11,10 +11,10 @@ Some of the features the SDK handles:
 - video streams playback
 
 ## Quick start guide
-1. [Intallation](https://github.com/900Seconds/900SecondsSDK#installation-and-dependencies)
-2. [Basic usage](https://github.com/900Seconds/900SecondsSDK#basic-usage)
-3. [Example application]
-4. [Other Requirements]
+1. [Intallation](https://github.com/900Seconds/900SecondsSDK-Android#installation-and-dependencies)
+2. [Basic usage](https://github.com/900Seconds/900SecondsSDK-Android#basic-usage)
+3. [Example application](https://github.com/900Seconds/900SecondsSDK-Android#example-application)
+4. [Other Requirements](https://github.com/900Seconds/900SecondsSDK-Android#other-requirements)
 
 ### Installation and dependencies
 For LiveStreaming SDK using needs following:
@@ -218,7 +218,7 @@ videoView.setVideoPath(path); // for example
 
 
 ## Example application
-You can get an example application from git repository git@github.com:900Seconds/900SecondsSDK-Android.git
+You can get an example application from [git repository](git@github.com:900Seconds/900SecondsSDK-Android.git)
 It contains code example for camera streaming, stream playing, streams list retrieving and other.
 
 
