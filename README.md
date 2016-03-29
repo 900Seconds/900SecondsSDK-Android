@@ -18,20 +18,19 @@ Some of the features the SDK handles:
 
 ### Installation and dependencies
 For LiveStreaming SDK using needs following:
-	- jcenter repository in `build.gradle`
-	```Gradle
-    repositories {
-        jcenter()
-    }
-	```
-	- include the livestream-sdk dependency:
-	```Gradle
-	dependencies {
-
-		// ... other dependencies here.     
-		compile 'com.livestream:livestream-sdk:0.1.1'
-	}
-	```
+- jcenter repository in `build.gradle`
+```Gradle
+repositories {
+   jcenter()
+}
+```
+- include the livestream-sdk dependency:
+```Gradle
+dependencies {
+    // ... other dependencies here.     
+    compile 'com.livestream:livestream-sdk:0.1.1'
+}
+```
 
 ### Basic usage
 Overview of all basic library features with comments.
