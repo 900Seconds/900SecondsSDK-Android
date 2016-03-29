@@ -51,7 +51,7 @@ For author autorization you should use:
 Nine00SecondsSDK.loginWithAuthorId(userId);
 ```
 
-userId is unique string. You can generate it randomly or use userId from other API like facebook, twitter etc.
+`userId` is unique string. You can generate it randomly or use userId from other API like facebook, twitter etc.
 
 
 #### Recording video
