@@ -40,7 +40,7 @@ First of all, you need to register your app with 900Seconds web interface. Regis
 
 Authorizing itself is very easy and require just one call to _Nine00SecondsSDK_:
 ```java
-Nine00SecondsSDK.registerAppID(getBaseContext(),
+Nine00SecondsSDK.registerAppIDWithSecret(getBaseContext(),
 		"yourAppId", 
 		"yourSecretKey");
 ```
