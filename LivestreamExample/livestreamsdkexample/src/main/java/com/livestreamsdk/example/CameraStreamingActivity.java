@@ -1,9 +1,9 @@
 package com.livestreamsdk.example;
 
-import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Surface;
@@ -17,7 +17,7 @@ import com.livestreamsdk.streaming.Nine00SecondsCameraViewListener;
 
 import java.util.concurrent.TimeUnit;
 
-public class CameraStreamingActivity extends Activity implements Nine00SecondsCameraViewListener {
+public class CameraStreamingActivity extends FragmentActivity implements Nine00SecondsCameraViewListener {
 
 	private CameraFragment cameraFragment; 
 
@@ -33,7 +33,7 @@ public class CameraStreamingActivity extends Activity implements Nine00SecondsCa
 
 			int orientation = getScreenOrientation();
 			cameraFragment.setStreamingOrientation(orientation);
-			getFragmentManager().beginTransaction()
+			getSupportFragmentManager().beginTransaction()
 			.replace(R.id.cameraViewContainer, cameraFragment)
 			.commit();
 			

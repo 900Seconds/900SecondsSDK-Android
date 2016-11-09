@@ -16,11 +16,11 @@ public class Nine00SecondsExampleApplication extends Application implements IEve
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		TLog.addTarget(new LogCatTarget("EYEYE"));
+		TLog.addTarget(new LogCatTarget("LIVESTREAM_EXAMPLE"));
 		
-		Nine00SecondsSDK.registerAppID(getBaseContext(),
+		Nine00SecondsSDK.registerAppIDWithSecret(getBaseContext(),
 				"__test_app_id", 
-				"fb1c9fe790674fdc9adcc8c6e6ae7866%2448ee433685c976b1a839d09a96fc9db61b3773774ab5f1be39b5aa4d0b194f46a667bcdc7b1d04b0e352c9d1d2c4d5b0b007986bbd345f2e21ad0f53fcb62cd5");
+				"Roophohro2kei2shiMe7");
 		
 		Nine00SecondsSDK.getDispatcher().addEventListener(StreamEvent.CHUNK_SENDED, this);
 		Nine00SecondsSDK.getDispatcher().addEventListener(StreamEvent.BROADCAST_COMPLETED, this);
